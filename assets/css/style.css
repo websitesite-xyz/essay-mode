@@ -1,0 +1,128 @@
+
+
+@font-face
+{font-family: neord;
+src: url('http://ja-ja.co/font/NEORD.ttf')
+
+}
+
+@font-face {
+    font-family: maison2;
+    src: url('http://ja-ja.co/font/MaisonNeue-Demi.otf');
+}
+
+@font-face {
+    font-family: maison;
+    src: url('http://ja-ja.co/font/MaisonNeue-Medium-TRIAL.otf');
+}
+
+@font-face {
+    font-family: archia;
+    src: url('http://ja-ja.co/font/archia-regular-webfont.ttf');
+}
+
+@font-face {
+    font-family: basier;
+    src: url('http://ja-ja.co/font/basiercircle-regular-webfont.ttf');
+}
+
+body {
+    color: #000;
+    font-family: basier, maison, arial, sans-serif;
+    font-size: 11pt;
+    text-align: center;
+    letter-spacing:1px;
+    background: #fff;
+    padding: 0;
+    margin: 0 auto;
+}
+
+p {
+    margin: 0;
+    text-align: left;
+    text-indent: 20pt;
+    }
+
+.intro {
+    text-indent: 0;
+}
+
+a:visited { color:blue;}
+a:hover { color: black; text-decoration:underline; outline:none; }
+a:active { color:#0074ff; text-decoration:none; outline:none; }
+
+
+
+tr:hover {background-color:none;}
+
+.column {
+width: 50%;
+float: left;
+}
+
+.table {
+  width: 100%;
+  margin-bottom: 0.5rem;
+  color: black;
+}
+
+.table td {
+  padding: 15pt;
+  vertical-align: center;
+  border-top: 1px solid #04E890;
+}
+
+.table tbody + tbody {
+  border-top: 2px solid #04E890;
+}
+
+.table-sm td {
+  padding: 0rem;
+}
+
+.table-bordered {
+  border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.table-bordered td {
+  border: 1px solid #000;
+}
+
+.table-bordered td {
+  border-bottom-width: 0px;
+}
+
+.table-grid {
+    width:80%;
+    margin:0 auto;
+}
+
+footer {
+    margin-top: 15pt;
+    margin-bottom: 15pt;
+    margin-right: 20%;
+    margin-left: 20%;
+    font-size: 7pt;
+}
+
+.mode {
+    font-size: 9pt;
+}
+
+.mode:hover {
+    color: white;
+    background: blue;
+}
+
+
+@media screen and (max-width: 704px) {
+  
+body {
+    margin-bottom: 50px;
+}
+
+p {
+    font-size: 9pt;
+}
+
